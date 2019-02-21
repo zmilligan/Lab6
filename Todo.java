@@ -10,16 +10,31 @@ Tasks:
 2. implement Square method and constructor
 3. implement Rectangle method and constructor
 4. complete trapezoid constructor and getShapeType method
+5. complete eqTriangle constructor
+6. complete eqTriangle getArea and getShapeType methods
+7. complete polygon getPerimeter method
+8. complete circle constructor
+9. complete getPerimeter and getShapeType methods
 
 Estimated Time (minutes):
 1. 6
 2. 14
 3. 14
 4. 5
+5. 2
+6. 5
+7. 2
+8. 1
+9. 3
 
 Actual Time (minutes):
 1. 8
 2. 16
 3. 17
 4. 7
+5. 1
+6. 6
+7. 1
+8. 1
+9. 2
 */}
