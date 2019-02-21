@@ -6,14 +6,17 @@ OU ID_______________: 112982309
 OU EMAIL____________: zmilligan@ou.edu
 
 Tasks:
-1. 
-2. 
+1. create square and rectangle classes skeleton
+2. implement Square method and constructor
+3. implement Rectangle method and constructor
 
 Estimated Time (minutes):
-1. 
-2. 
+1. 6
+2. 14
+3. 14
 
 Actual Time (minutes):
-1. 
-2. 
+1. 8
+2. 16
+3.
 */}
