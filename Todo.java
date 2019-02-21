@@ -15,6 +15,8 @@ Tasks:
 7. complete polygon getPerimeter method
 8. complete circle constructor
 9. complete getPerimeter and getShapeType methods
+10. complete shape toString
+11. complete shape compareTo method
 
 Estimated Time (minutes):
 1. 6
@@ -26,6 +28,8 @@ Estimated Time (minutes):
 7. 2
 8. 1
 9. 3
+10. 4
+11. 15
 
 Actual Time (minutes):
 1. 8
@@ -37,4 +41,6 @@ Actual Time (minutes):
 7. 1
 8. 1
 9. 2
+10. 2
+11. 
 */}
