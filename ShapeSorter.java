@@ -1,3 +1,5 @@
+package lab6.src;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 

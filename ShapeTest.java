@@ -1,3 +1,5 @@
+package lab6.src;
+
 import org.junit.Assert;
 import org.junit.Test;
 
