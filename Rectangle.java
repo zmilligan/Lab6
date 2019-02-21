@@ -14,7 +14,7 @@ public class Rectangle extends Polygon
 	private double width;
 	
 	/**
-	 * Constructor for the Rectangle class
+	 * Constructor for the Rectangle class, stores the height and width in the sideLengths array
 	 * @param id The identifier for the rectangle
 	 * @param height The height of the rectangle
 	 * @param width The width of the rectangle
@@ -24,6 +24,11 @@ public class Rectangle extends Polygon
 		super(id);
 		this.height = height;
 		this.width = width;
+		
+		this.sideLengths.add(height);
+		this.sideLengths.add(height);
+		this.sideLengths.add(width);
+		this.sideLengths.add(width);
 	}
 	
 	/**
