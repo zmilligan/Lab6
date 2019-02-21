@@ -23,6 +23,11 @@ public class EquilateralTriangle extends Polygon
 	public EquilateralTriangle(String id, double sideLength)
 	{
 		// TODO: complete this...
+		super(id);
+		this.sideLength = sideLength;
+		this.sideLengths.add(sideLength);
+		this.sideLengths.add(sideLength);
+		this.sideLengths.add(sideLength);
 	}
 
 	/**
