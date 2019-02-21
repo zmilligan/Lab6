@@ -4,8 +4,8 @@ package lab6.src;
  *
  * Class representing a shape.
  *
- * @author Stephen
- * @version 2019-02-18
+ * @author Zandi Milligan
+ * @version 2019-02-21
  */
 public abstract class Shape implements Comparable<Shape>
 {
@@ -96,7 +96,15 @@ public abstract class Shape implements Comparable<Shape>
 	@Override
 	public int compareTo(Shape s)
 	{
-		// TODO: complete this...
+		if(this.getArea() > s.getArea())
+			return 1;
+		if(this.getArea() < s.getArea())
+			return -1;
+		if(this.getPerimeter() > s.getPerimeter())
+			return 1;
+		if(this.getPerimeter() < s.getPerimeter())
+			return -1;
+		return 0;
 	}
 
 	/**
