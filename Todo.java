@@ -25,6 +25,13 @@ Tasks:
 17. sorter toString method
 18. sorter sort() method
 19. sorter sort(comparator) method
+20. RectangleTest
+21. TriangleTest
+22. TrapezoidTest
+23. CircleTest
+24. ShapeToStringTest
+25. ComparePerimeterTest
+26. NaturalCompareTest
 
 Estimated Time (minutes):
 1. 6
@@ -44,8 +51,15 @@ Estimated Time (minutes):
 15. 1
 16. 3
 17. 2
-18. 4
-19. 15
+18. 2
+19. 2
+20. 4
+21. 4
+22. 4
+23. 6
+24. 8
+25. 7
+26. 7
 
 Actual Time (minutes):
 1. 8
@@ -63,8 +77,15 @@ Actual Time (minutes):
 13. 1
 14. 1
 15. 1
-16. 
-17. 
-18. 
-19.
+16. 2
+17. 2
+18. 1
+19. 1
+20. 2
+21. 3
+22. 7
+23. 2
+24. 5
+25. 7
+26. 10
 */}
