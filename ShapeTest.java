@@ -173,12 +173,29 @@ public class ShapeTest
 	}
 
 	/**
-     * Tests for the Shape Perimter Comparator class.
+     * Tests for the Shape Perimeter Comparator class.
      */
 	@Test
 	public void ComparePerimeterTest()
 	{
-		// TODO: complete this...
+		// Test equals:
+		Shape rect = new Rectangle("R1", 3.0,3.0);
+		Shape sqr = new Square("S1", 3.0);
+		ShapePerimeterComparator sc = new ShapePerimeterComparator();
+		Assert.assertEquals("ShapePerimeterComparator should find shapes equal.", 0, sc.compare(rect, sqr));
+		Assert.assertTrue("ShapePerimeterComparator should find shapes equal.", sc.equals(rect, sqr));
+
+		// Test equal area, different perimeter:
+        Shape rect2 = new Rectangle("R2", 1.0, 16.0);
+        Shape sqr2 = new Square("S2", 4.0);
+        Assert.assertEquals("ShapePerimeterComparator gave incorrect ordering.", 1, sc.compare(rect2, sqr2));
+        Assert.assertEquals("ShapePerimeterComparator gave incorrect ordering.", -1, sc.compare(sqr2, rect2));
+        Assert.assertFalse("ShapePerimeterComparator incorrectly finds shapes equal.", sc.equals(rect2, sqr2));
+
+        // Test unequal perimeter and area:
+        Assert.assertEquals("ShapePerimeterComparator gave incorrect ordering.", 1, sc.compare(sqr2, rect));
+        Assert.assertEquals("ShapePerimeterComparator gave incorrect ordering.", -1, sc.compare(rect, sqr2));
+        Assert.assertFalse("ShapePerimeterComparator incorrectly finds shapes equal.", sc.equals(sqr2, rect));
 	}
 
 	/**
