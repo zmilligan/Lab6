@@ -70,7 +70,14 @@ public class ShapeSorter
 	@Override
 	public String toString()
 	{
-		// TODO: complete this...
+		String list = "";
+		
+		for(Shape s : shapes)
+		{
+			list += s.toString() + "\n";
+		}
+		
+		return list;
 	}
 
 }
