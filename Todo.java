@@ -1,7 +1,7 @@
 package lab6.src;
 public class Todo {/*
 Lab Section_________: 12
-Last Modified_______: 2019-02-21
+Last Modified_______: 2019-02-22
 OU ID_______________: 112982309
 OU EMAIL____________: zmilligan@ou.edu
 
@@ -61,8 +61,8 @@ Actual Time (minutes):
 11. 6
 12. 1
 13. 1
-14. 
-15. 
+14. 1
+15. 1
 16. 
 17. 
 18. 
