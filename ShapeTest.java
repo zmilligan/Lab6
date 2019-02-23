@@ -204,6 +204,22 @@ public class ShapeTest
 	@Test
     public void NaturalCompareTest()
     {
-		// TODO: complete this...
+		// Test equals:
+		Shape rect = new Rectangle("R1", 3.0, 3.0);
+		Shape sqr = new Square("S1", 3.0);
+		Assert.assertEquals("Natural comparator should find shapes equal.", 0, rect.compareTo(sqr));
+		Assert.assertEquals("Natural comparator should find shapes equal.", 0, sqr.compareTo(rect));
+
+		// Test equal area, different perimeter:
+        Shape rect2 = new Rectangle("R2", 1.0, 16.0);
+        Shape sqr2 = new Square("S2", 4.0);
+        Assert.assertEquals("Natural comparator gave incorrect ordering.", 1, rect2.compareTo(sqr2));
+        Assert.assertEquals("Natural comparator gave incorrect ordering.", -1, sqr2.compareTo(rect2));
+        Assert.assertFalse("Natural comparator incorrectly finds shapes equal.", rect2.compareTo(sqr2) == 0);
+
+        // Test unequal perimeter and area:
+        Assert.assertEquals("Natural comparator gave incorrect ordering.", 1, sqr2.compareTo(rect));
+        Assert.assertEquals("Natural comparator gave incorrect ordering.", -1, rect.compareTo(sqr2));
+        Assert.assertFalse("Natural comparator incorrectly finds shapes equal.", sqr2.compareTo(rect) == 0);
     }
 }
