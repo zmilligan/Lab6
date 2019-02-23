@@ -1,6 +1,7 @@
 package lab6.src;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 
 /**
@@ -44,7 +45,7 @@ public class ShapeSorter
 	 */
 	public void sortShapes()
 	{
-		// TODO: complete this...
+		Collections.sort(shapes);
 	}
 
 	/**
@@ -57,7 +58,7 @@ public class ShapeSorter
 	 */
 	public void sortShapes(Comparator<Shape> comparator)
 	{
-		// TODO: complete this...
+		Collections.sort(shapes, comparator);
 	}
 
 	/**
