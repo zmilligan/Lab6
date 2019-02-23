@@ -122,6 +122,19 @@ public class ShapeSorterTest
 	@Test
 	public void ToStringTest()
 	{
-		// TODO: complete this...
+		ShapeSorter sorter = new ShapeSorter();
+
+		Shape a = new Rectangle("test", 3, 3);
+		Shape b = new EquilateralTriangle("test2", 4);
+		Shape c = new Square("test3", 3);
+		Shape d = new Circle("test4", 1.5);
+
+		sorter.addShape(a);
+		sorter.addShape(b);
+		sorter.addShape(c);
+		sorter.addShape(d);
+
+		Assert.assertEquals("toString incorrect...", sorter.toString(), 
+				a.toString() + "\n" + b.toString() + "\n" + c.toString() + "\n" + d.toString() + "\n");
 	}
 }
