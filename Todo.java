@@ -32,6 +32,10 @@ Tasks:
 24. ShapeToStringTest
 25. ComparePerimeterTest
 26. NaturalCompareTest
+27. Default sorter test
+28. Area sorter test
+29. Perimeter sorter test
+30. sorter toString test
 
 Estimated Time (minutes):
 1. 6
@@ -60,6 +64,10 @@ Estimated Time (minutes):
 24. 8
 25. 7
 26. 7
+27. 4
+28. 4
+29. 4
+30. 5
 
 Actual Time (minutes):
 1. 8
@@ -88,4 +96,8 @@ Actual Time (minutes):
 24. 5
 25. 7
 26. 10
+27. 8
+28. 2
+29. 2
+30. 2
 */}
