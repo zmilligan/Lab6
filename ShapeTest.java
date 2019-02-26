@@ -114,32 +114,32 @@ public class ShapeTest
 	{
 		Shape sqr = new Square("Square2", 4.0);
 		Assert.assertEquals("Shape toString incorrect.",
-				String.format("%s\t ID = %s\t area = %.3f\t perimeter = %.3f", sqr.getShapeType(), sqr.getId(), sqr.getArea(), sqr.getPerimeter()),
+				String.format("%s:\t ID = %s\t area = %.3f\t perimeter = %.3f", sqr.getShapeType(), sqr.getId(), sqr.getArea(), sqr.getPerimeter()),
 				sqr.toString());
 		
 		Shape rec = new Rectangle("Rectangle2", 4.0, 5.0);
 		Assert.assertEquals("Shape toString incorrect.",
-				String.format("%s\t ID = %s\t area = %.3f\t perimeter = %.3f", rec.getShapeType(), rec.getId(), rec.getArea(), rec.getPerimeter()),
+				String.format("%s:\t ID = %s\t area = %.3f\t perimeter = %.3f", rec.getShapeType(), rec.getId(), rec.getArea(), rec.getPerimeter()),
 				rec.toString());
 		
 		Shape eqTri = new EquilateralTriangle("Triangle2", 4.0);
 		Assert.assertEquals("Shape toString incorrect.",
-				String.format("%s\t ID = %s\t area = %.3f\t perimeter = %.3f", eqTri.getShapeType(), eqTri.getId(), eqTri.getArea(), eqTri.getPerimeter()),
+				String.format("%s:\t ID = %s\t area = %.3f\t perimeter = %.3f", eqTri.getShapeType(), eqTri.getId(), eqTri.getArea(), eqTri.getPerimeter()),
 				eqTri.toString());
 		
 		Shape trap = new Trapezoid("Trapezoid2", 4.0, 4.0, 2.0, 5.0);
 		Assert.assertEquals("Shape toString incorrect.",
-				String.format("%s\t ID = %s\t area = %.3f\t perimeter = %.3f", trap.getShapeType(), trap.getId(), trap.getArea(), trap.getPerimeter()),
+				String.format("%s:\t ID = %s\t area = %.3f\t perimeter = %.3f", trap.getShapeType(), trap.getId(), trap.getArea(), trap.getPerimeter()),
 				trap.toString());
 		
 		Shape el = new Ellipse("Ellipse3", 4.0, 5.0);
 		Assert.assertEquals("Shape toString incorrect.",
-				String.format("%s\t ID = %s\t area = %.3f\t perimeter = %.3f", el.getShapeType(), el.getId(), el.getArea(), el.getPerimeter()),
+				String.format("%s:\t ID = %s\t area = %.3f\t perimeter = %.3f", el.getShapeType(), el.getId(), el.getArea(), el.getPerimeter()),
 				el.toString());
 		
 		Shape circ = new Circle("Circle2", 4.0);
 		Assert.assertEquals("Shape toString incorrect.",
-				String.format("%s\t ID = %s\t area = %.3f\t perimeter = %.3f", circ.getShapeType(), circ.getId(), circ.getArea(), circ.getPerimeter()),
+				String.format("%s:\t ID = %s\t area = %.3f\t perimeter = %.3f", circ.getShapeType(), circ.getId(), circ.getArea(), circ.getPerimeter()),
 				circ.toString());
 	}
 
